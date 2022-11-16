@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Метрики</title>
+</head>
+<body>
+    <!-- Задачи для Решения -->
+    <!-- Работа с классами -->
+    <!-- 1)Дан элемент #elem. Добавьте ему класс www. -->
+    
+    <!-- <h1 id="elem" >Елемент</h1> -->
+
+    <!-- 2)Дан элемент #elem. Удалите у него класс www. -->
+
+    <!-- <h1 id="elem" class="www">Елемент</h1> -->
+
+    <!-- 3)Дан элемент #elem. Проверьте наличие у него класса www. -->
+
+    <!-- <h1 id="elem" class="www">Елемент</h1> -->
+
+    <!-- 4)Дан элемент #elem. Добавьте ему класс www, если его нет и удалите - если есть. -->
+
+    <!-- 4.1-->
+
+    <!-- <h1 id="elem" class="www">Елемент</h1> -->
+
+    <!-- 4.2) -->
+
+    <!-- <h1 id="elem" class="www">Елемент</h1>
+    <button onclick="btnClick()">Нажми на меня</button> -->
+
+    <!-- 5) Дан элемент #elem. Узнайте количество его классов. -->
+
+    <!-- <h1 id="elem" class="one two" >елемент</h1>  -->
+
+    <!-- 6)Дан элемент #elem. Выведите последовательно алертом его классы. -->
+
+    <!-- <h1 id="elem" class="one two three end" >елемент</h1> -->
+
+    <!-- Работа с CSS -->
+    <!-- 1)Дан элемент #elem. Сделайте его красного цвета, размером 30px, добавьте ему границу. Решите задачу с помощью свойства cssText. -->
+
+    <!-- <div class="elem" id ='elem'></div> -->
+
+    <!-- Свойство tagName -->
+    <!-- 1 Дан элемент #elem. По клику на него выведите название его тега. -->
+    <!-- <h1 id="elem" onclick="btnClick()" >Нажми на меня</h1>  -->
+
+    <!-- 2 Дан элемент #elem. По клику на него выведите название его тега в нижнем регистре. -->
+
+    <!-- <h1 id="elem" onclick="btnClick()" >Нажми на меня</h1> -->
+
+    <!-- 3 Даны элементы с классом www. Добавьте каждому элементу в конец название его тега в нижнем регистре. -->
+
+    <!-- <h1 id="elem" class="www" >Element</h1>
+    <h2 id="elem" class="www" >Element</h2> 
+    <h3 id="elem" class="www" >Element</h3> -->
+
+    <!-- 4 -->
+
+    <!-- Вставка элементов через appendChild -->
+
+    <!--1 Дан ol. Вставьте ему в конец li с текстом 'пункт'. -->
+
+    <!-- <button onclick="addElement()">нажми на меня</button>
+    <ol id="parent"></ol> -->
+
+    <!-- 2 Дан ul. Дан массив. Вставьте элементы этого массива в конец ul так, чтобы каждый элемент стоял в своем li. -->
+
+    <!-- <ul id="parent"></ul> -->
+
+    <!-- Вставка элементов через insertAdjacentHTML -->
+
+    <!-- 1-4 Дан элемент #elem. Вставьте перед ним span с текстом '!!!'. -->
+    <!-- <p>Я перед elem</p>
+    <div id ='elem'>
+        <p>Я внутри elem</p>
+    </div>
+    <p>Я после elem</p> -->
+
+    <!-- Удаление и клонирование -->
+    <!-- 1 Дан элемент #parent, внутри него дан элемент #child. Дана кнопка. По нажатию на эту кнопку удалите элемент #child. -->
+    
+    <!-- <div id="parent">
+        <p id = 'child'>ребенок</p>
+    </div>
+    <button onClick = 'btnClc()'>Казнить ребёнка</button> -->
+
+    <!-- 2 Дан ol. По нажатию на кнопку получите его последнего потомка и удалите его.-->
+    <!-- <ol id = 'parent'>
+        <li class="child">не последний</li>
+        <li class="child">не последний</li>
+        <li class="child">не последний</li>
+        <li class="child">не последний</li>
+        <li class="child">не последний</li>
+        <li class="child">не последний</li>
+        <li class="child">не последний</li>
+        <li class="child">последний</li>
+    </ol>
+    <button onClick = 'btnClc()'>делит</button>  -->
+
+    <!-- 3 Дан элемент. Сделайте так, чтобы по нажатию по нему этот элемент удалялся. -->
+    <!-- <div id="parent">
+        <p onClick = 'btnClc(this)'>Не трогай меня!!!!</з>
+    </div> -->
+    
+
+    <!-- 4 Дан ol, а внутри него li. Сделайте так, чтобы по нажатию на любую li эта li удалялась.-->
+    <!-- <ol id = 'parent'>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+        <li class="child" onClick = 'btnClc(this)'> Не трогай меня!!!</li>
+    </ol> -->
+
+    <!-- 5 Дан инпут. Дана кнопка. По нажатию на кнопку клонируйте этот инпут. -->
+    <!-- <input type="text" id = 'input'  value="Я инпут! Я инпут!">
+    <button id="btn" onclick="btnClick()">НАЖМИ НА МЕНЯ</button> -->
+
+    <!-- Потомки -->
+    <!-- 1 Дан элемент #elem. Найдите первого потомка этого элемента и сделайте его текст красного цвета. -->
+
+    <!-- <ul id="parent">
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+        <li class="child">Я ребёнок!</li>
+    </ul> -->
+
+    <!-- Соседи -->
+
+    <!-- 1 -->
+
+    <!-- <div id="div-1">Here is div-1</div>
+    <div id="div-2">Here is div-2</div>
+    <div id="div-3">Here is div-3</div> -->
+
+    <!-- 2 -->
+    <!-- <div id="div-1">Here is div-1</div>
+    <div id="div-2">Here is div-2</div>
+    <div id="div-3">Here is div-3</div> -->
+    <!-- 3 -->
+    <!-- <div id="div-1">Here is div-1</div>
+    <div id="div-2">Here is div-2</div>
+    <div id="div-3">Here is div-3</div> -->
+
+    <!-- Родители -->
+    <!-- 1 Дан элемент #elem. Найдите его родителя и покрасьте его в красный цвет. -->
+    <!-- <ul id="parent">
+        <li id="child">Я ребёнок!</li>
+    </ul> -->
+
+    <!-- 2 -->
+    <!-- <div class="wrap">
+        wrap
+        <ul id="parent">
+            parent
+            <li id="child">child</li>
+        </ul>
+    </div> -->
+
+    <!-- На величину границы -->
+
+    <!-- Дан элемент #elem с границами. По нажатию на кнопку выведите толщину его верхней границы. -->
+    <!-- 1-2 -->
+    <!-- <div id="elem"></div>
+    <button onclick="btnClick()">Нажми на меня</button>
+    <style>
+        #elem{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: solid 5px  red ;
+        }
+    </style> -->
+
+    <!-- На полный размер элемента  и На размер элемента без границ, но с padding и Работа с getComputedStyle-->
+
+    <!-- <div id="elem"></div>
+    <button onclick="btnClick()">Нажми на меня</button>
+    <style>
+        #elem{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: solid 5px  red ;
+        }
+    </style>  -->
+
+    <!-- Прокрутка элемент-->
+
+    <!-- <div id="elem"></div>
+    <button onclick="btnClick()" id="btn" >НАЖМИ</button> -->
+
+
+    <!-- Практика -->
+    <!-- <div id="elem"></div>
+    <button onclick="btnClick()" id="btn" >НАЖМИ</button> -->
+    <!-- 4 -->
+    <!-- <div id="elem" onclick="btnClick()">типо здесь ширина и высота есть да</div> -->
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
